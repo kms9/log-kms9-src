@@ -102,35 +102,71 @@ date: 2020-03-16T19:17:47+08:00
       2. swoole
       3. 扩展
       4. 加载机制
+      5. 源码阅读
+         1. php7为什么比PHP7快
+         2. php的垃圾回收机制
+         3. php的数组实现原理
+         4. php的运行模式
+         5. php的fpm调度模型
+         6. 
    2. mysql
       1. 优化 
       2. 同步机制
       3. binlog
-      4. 
+      4. b 和 b+数区别
+      5. sql执行顺序
+      6. 对比tikv
    3. redis
       1. 数据结构
       2. 优化
       3. 扩展
-   4. golang
+      4. 源码阅读
+         1. 两种不同的事件
+         2. 数据的操作对应的结构
+         3. 同步的机制
+         4. 集群的机制
+      5. 对别其他的kv结构
+         1. levelDb
+         2. rocksDb
+         3. 自己实现
+         4. 
+4. golang
       1. micro
       2. gin
-      3. 
+      3. 基础结构的原理
+      4. 垃圾回收
+      5. 源代码阅读
+      6. grpc
+      7. gocron 二次开发
    5. elastic
       1. dsl
       2. 数据写入
+      3. 集群的原理
    6. lua
       1. waf
       2. 限流
       3. 令牌桶
+      4. openresty
+      5. 解释器阅读
    7. mq
-      1. 
+      1. 延迟队列
+      2. kafka对比
+      3. 
    8. kafka
-   9. openresty
-      1. lua
-   10. mongodb
+      1. 为什么快
+   9. nsq
+      1. 延迟队列
+      2. 阅读源码
+   10. nats
+       1. micro依赖 
+   11. openresty
+       1. lua
+       2. 动态负载
+       3. 
+   12. mongodb
        1. 递归搜索
-   11. 
-
+   13. 
+   
 6. 一些经常使用的碎片代码
 
    
